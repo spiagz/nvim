@@ -21,4 +21,7 @@ autocmd BufRead,BufNewFile *.blade.php set filetype=blade
 
 "nnoremap <silent><leader>pcd :call PhpCsFixerFixDirectory()<CR>
 " nnoremap <silent><leader>pcf :call PhpCsFixerFixFile()<CR>
+map      <silent> <F3> :call DisplayTag()<CR>
+map      <silent> <F4> :call DisplayGivenTag()<CR>
+nnoremap <silent> <F5> :call RebuildTags()<CR>
 

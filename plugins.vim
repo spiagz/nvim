@@ -28,5 +28,6 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'junegunn/fzf.vim' "fzf for vim
         Plug 'psliwka/vim-smoothie' " smooth scrolling
         Plug 'vim-syntastic/syntastic' " php errors
+        Plug 'webastien/vim-ctags' " Ctags for jumping to files(references)
 call plug#end()
 

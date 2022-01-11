@@ -12,7 +12,7 @@ source $HOME/.config/nvim/plugins-settings.vim
 :set expandtab " tabs are now spaces
 :set hidden
 :set shell=/usr/bin/zsh
-
+:let mapleader = "\<Space>"
 " remove search highlight 
 map <esc> :noh <CR>
  " Next Buffer
@@ -20,9 +20,9 @@ nnoremap <C-e> :bnext<CR>
  " Previous Buffer
 noremap <C-q> :bprev<CR>
 " Toggle file explorer
-nnoremap <leader>[ :NERDTreeToggle<CR> 
+nnoremap <leader>; :NERDTreeToggle<CR> 
 " Focus file explorer(Open it if closed)
-nnoremap <leader>] :NERDTreeFocus<CR> 
+nnoremap <leader>' :NERDTreeFocus<CR> 
 " Save file
 nnoremap <C-s> :w<CR> 
 " Save all files
@@ -46,7 +46,7 @@ vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
 " Delete buffer
 nnoremap <C-S-d> :bw<CR>
-
+nnoremap <leader>d :t.<CR>
 
 " replace without confirmation
 fu! ReplaceWithoutConfirmation(search, replace)
