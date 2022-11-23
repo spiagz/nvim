@@ -4,15 +4,15 @@ source $HOME/.config/nvim/plugins-settings.vim
 :set mouse+=a " enable mouse navigation
 :set number " enable line numbering
 :set relativenumber " relative line numbering
-:set cursorline " highlight cursor line
+" :set cursorline " highlight cursor line
 :syntax enable
-:colorscheme one " theme selected
+:colorscheme darcula " theme selected
 :set termguicolors " to display the theme correctly
 :set list lcs=tab:\|\ " tab indentation
 :set expandtab " tabs are now spaces
 :set hidden
 :set shell=/usr/bin/zsh
-:let mapleader = "\<Space>"
+:let mapleader = ","
 " remove search highlight 
 map <esc> :noh <CR>
  " Next Buffer

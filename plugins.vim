@@ -1,7 +1,7 @@
 call plug#begin('~/.config/nvim/plugged')
         Plug 'preservim/nerdtree' " File explorer
         Plug 'itchyny/lightline.vim' " Enhanced status bar
-        Plug 'crusoexia/vim-monokai' " Monokai theme
+        Plug 'doums/darcula' " Darcula theme
         Plug 'rakr/vim-one' " vim one theme
         Plug 'tpope/vim-commentary' " Comments shortcuts 
         Plug 'ap/vim-buftabline' " buffers like tabs
